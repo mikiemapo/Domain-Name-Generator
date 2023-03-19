@@ -2,6 +2,8 @@
 // import "bootstrap";
 // import "./style.css";
 
+const { apply } = require("file-loader");
+
 // import "./assets/img/rigo-baby.jpg";
 // import "./assets/img/4geeks.ico";
 
@@ -23,3 +25,4 @@ for (let i = 0; i < pronoun.length; i++) {
     }
   }
 }
+// to run put in terminal node app.js
